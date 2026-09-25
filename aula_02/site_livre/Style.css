@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gray;
+    padding: 3%;
+}
+
+nav {
+    display: flex; gap: 25px;
+}
+
+.tier{
+font-weight: bolder;
+}
+
+section {
+    background-color: rgb(246, 247, 246);
+    padding: 18px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 18px;
+}
+
+#primeiro{
+color: rgb(230, 148, 6);
+}
+
+#segundo{
+color: rgb(230, 148, 6);
+}
+
+#terceiro{
+color: rgb(230, 148, 6);
+}
+
+table {
+    border: 6px solid rgb(124, 76, 76);
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
+
+a:hover{
+    color: crimson;
+}
+
+.claro{
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
